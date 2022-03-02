@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "reporter": "cypress-multi-reporters",
+  "video": true,
+  "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": false,
+          "html": false,
+          "json": true
+      }
+  }
+}
