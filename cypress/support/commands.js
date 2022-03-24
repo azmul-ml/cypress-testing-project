@@ -27,7 +27,7 @@
 ///<reference types="cypress" />
 
 Cypress.Commands.add('login',()=>{
-   cy.visit('http://localhost:3000/login')
+   cy.visit(Cypress.config().baseUrl + "/login")
    cy.get("[name='email']").type('email1@email.com ')
    cy.get("[name='password]").type('123456789')
    cy.get("[type='submit]").click()

@@ -1,10 +1,10 @@
 describe('Verifying Login pages Elements', ()=>{
     before("Invoking the login page",()=>{
-        cy.visit('http://localhost:3000/login')
+        cy.visit(Cypress.config().baseUrl + "/login")
     })
 
     it("Verify the url is correct", ()=>{
-        cy.url().should('eq','http://localhost:3000/login');
+        cy.url().should('eq', Cypress.config().baseUrl + "/login");
     })
 
     it("Welcome tag of the page and homepage return link",()=>{

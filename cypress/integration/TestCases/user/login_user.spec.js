@@ -71,6 +71,6 @@ context("Try login with valid email and password",()=>{
         loginpage.btnlogin()
     })
     it("Check the url after login",()=>{
-        cy.url().should("eq","http://localhost:3000/")
+        cy.url().should("eq", Cypress.config().baseUrl + "/");
     })
 })
