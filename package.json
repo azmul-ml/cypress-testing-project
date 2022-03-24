@@ -52,13 +52,16 @@
     ]
   },
   "devDependencies": {
+    "add": "^2.0.6",
     "cypress": "^9.5.1",
     "cypress-dotenv": "^2.0.0",
     "cypress-multi-reporters": "^1.5.0",
     "cypress-xpath": "^1.6.2",
+    "eslint-plugin-cypress": "^2.12.1",
     "mocha": "^9.2.1",
     "mochawesome": "^7.1.0",
     "mochawesome-merge": "^4.2.1",
-    "mochawesome-report-generator": "^6.1.0"
+    "mochawesome-report-generator": "^6.1.0",
+    "yarn": "^1.22.18"
   }
 }

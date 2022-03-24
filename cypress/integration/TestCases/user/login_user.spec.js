@@ -6,7 +6,6 @@ describe('Login without inserting any data',()=>{
 
     before(()=>{
         loginpage.navigate()
-        cy.wait(200)
     })
 
     it('Verify the Url',()=>{

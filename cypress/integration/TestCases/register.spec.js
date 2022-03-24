@@ -1,11 +1,10 @@
-import { Context } from "mocha"
+/// <reference types="cypress" />
 import { RegisterPage } from "../pages/registerpage"
 
 const registerpage = new RegisterPage()
 
 describe('register pages url verify', ()=>{
 before(()=>{
-
     registerpage.navigate()
 })
 
